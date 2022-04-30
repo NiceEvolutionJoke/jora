@@ -1,0 +1,11 @@
+User-Agent: clickfrogbot
+Allow: /
+User-agent: *
+Disallow: /send.php
+Disallow: /politika.html
+Disallow: /qwiz/test*
+Disallow: /tnx.html
+Disallow: /index-qwiz.html
+
+
+host: https://office-remont-spb.ru/
