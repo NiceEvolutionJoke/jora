@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Тест - рассчитайте стоимость ремонта офиса за 60 секунд</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style.css">
+	<script src="libs/jquery-3.2.1.min.js"></script>
+	<script src="libs/jquery.bxslider.min.js"></script>
+	<script src="libs/jquery.maskedinput.min.js"></script>
+	<script src="libs/is.mobile.js"></script>
+	<script src="libs/jquery.form.js"></script>
+	<script src="libs/jquery.validate.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KH9Q732');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+<body>
+
+
+
+
+<form class="portable-test-wrapper">
+	<!-- LOGO + TITLE START -->
+	<div class="header-line">
+		<div class="container">
+			<img src="img/logo.png" alt="logo" class="header-line__logo">
+			<h2 class="header-line__title">
+				Ответьте на 6 вопросов и 
+ <br>узнайте стоимость ремонта вашего офиса
+			</h2>
+		</div>
+	</div>
+	<!-- LOGO + TITLE END -->
+
+	<!-- PROGRESS LINE START -->
+	<div class="progress-line">
+		<div class="main-progress">
+			<div class="main-progress__extender"></div>
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 6 вопросов,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 5 вопросов,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 4 вопроса,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 3 вопроса,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 2 вопроса,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось ответить на 1 вопрос,</b> чтобы получить подарок от компании "КРС"
+			</div>
+			<!-- STEPS TEXT END -->
+<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Осталось выбрать подарок</b>
+			</div>
+			<!-- STEPS TEXT END -->
+			<!-- STEPS TEXT START -->
+			<div class="main-progress__text">
+				<b>Остался последний шаг!</b> 
+			</div>
+			<!-- STEPS TEXT END -->
+		</div>
+		<div class="container">
+			<div class="step">
+				<div class="step__text">Шаг <span>1</span></div>
+				<div class="step__extender"></div>
+			</div>
+		</div>
+	</div>
+	<!-- PROGRESS LINE END -->
+
+	<!-- STEPS START -->
+	<div class="container">
+		<div class="test-slider">
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-1">
+				<h3 class="step-slide__title">
+				Выберите тип вашего объекта
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step1-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/1-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step1" id="step1-1" value="Новое помещение без отделки">
+						<div class="pick-item__label">Новое помещение без отделки</div>
+					</label>
+					<!-- ONE-ITEM END -->
+
+					<!-- ONE-ITEM START -->
+					<label for="step1-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/1-2.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step1" id="step1-2" value="Нужен косметический ремонт">
+						<div class="pick-item__label">Нужно "освежить" отделку в старом офисе</div>
+					</label>
+					<!-- ONE-ITEM END -->
+
+					<!-- ONE-ITEM START -->
+					<label for="step1-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/1-3.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step1" id="step1-3" value="Нужна перепланировка">
+						<div class="pick-item__label">Нужна перепланировка</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step1-4" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/1-4.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step1" id="step1-4" value="Определимся с прорабом">
+						<div class="pick-item__label">Определимся с прорабом</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					
+					<div id="next1" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-1" name="step1">
+			</div>
+			<!-- ONE-STEP END -->
+
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-2">
+				<h3 class="step-slide__title">
+				Укажите ориентировочную площадь
+				</h3>
+				<div class="step-slide__grid">
+
+					<!-- ONE-ITEM START -->
+					<label for="step2-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/2-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step2" id="step2-1" value="До 50 м²">
+						<div class="pick-item__label">До 50 м²</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step2-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/2-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-2" value="50-100 м²">
+						<div class="pick-item__label">50-100 м²</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step2-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/2-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-3" value="100-200 м²">
+						<div class="pick-item__label">100-200 м²</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step2-4" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/2-4.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step2" id="step2-4" value="Не знаю, нужен замер">
+						<div class="pick-item__label">Не знаю, нужен бесплатный замер</div>
+					</label>
+					<!-- ONE-ITEM END -->
+				
+					
+
+					<div id="next2" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-2" name="step2">
+			</div>
+			<!-- ONE-STEP END -->
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-3">
+				<h3 class="step-slide__title">
+				Сколько помещений будем ремонтировать?
+				</h3>
+				<div class="step-slide__grid">
+
+					<!-- ONE-ITEM START -->
+					<label for="step3-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/3-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step3" id="step3-1" value="1 кабинет">
+						<div class="pick-item__label">1 кабинет</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step3-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/3-2.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step3" id="step3-2" value="Несколько помещений">
+						<div class="pick-item__label">Несколько помещений</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step3-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/3-3.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step3" id="step3-3" value="Весь офис">
+						<div class="pick-item__label">Весь офис</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					
+										<!-- ONE-ITEM START -->
+					<label for="step3-4" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/3-4.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step3" id="step3-4" value="Определимся на замере">
+						<div class="pick-item__label">Определимся на замере</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					
+															
+					
+					<div id="next3" class="btn-next-container" id="do"></div>
+				</div>
+				<input type="hidden" class="hidden-input-3" name="step3">
+			</div>
+			<!-- ONE-STEP END -->
+
+
+            <!-- ONE-STEP START -->
+			<div class="step-slide step-slide-4">
+				<h3 class="step-slide__title">
+					Выберите тип ремонта
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step4-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/4-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step4" id="step4-1" value="косметический">
+						<div class="pick-item__label">Косметический</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step4-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/4-2.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step4" id="step4-2" value="стандартный">
+						<div class="pick-item__label">Стандартный (евро)</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step4-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/4-3.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step4" id="step4-3" value="капитальный">
+						<div class="pick-item__label">Капитальный</div>
+					</label>
+					<!-- ONE-ITEM END -->
+										<!-- ONE-ITEM START -->
+					<label for="step4-4" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/4-4.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step4" id="step4-4" value="Дизайнерский">
+						<div class="pick-item__label">Дизайнерский</div>
+					</label>
+					<!-- ONE-ITEM END -->					
+					
+					<div id="next4" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-4" name="step4">
+			</div>
+			<!-- ONE-STEP END -->
+
+
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-5">
+				<h3 class="step-slide__title">
+					Ремонт будем делать по дизайн-проекту?
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step5-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/5-1.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-1" value="Да у меня есть дизайн-проект">
+						<div class="pick-item__label">Да, у меня есть дизайн-проект</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step5-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/5-2.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-2" value="Нет, без дизаайн-проекта">
+						<div class="pick-item__label">Нет, без дизайн-проекта</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step5-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/5-3.jpg" alt="item">
+						</div>					
+						<input class="pick-item__input" type="radio" name="step5" id="step5-3" value="Мне необходим дизайн-проект">
+						<div class="pick-item__label">Мне необходим дизайн-проект со скидкой</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					
+					<div id="next5" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-5" name="step5">
+			</div>
+			<!-- ONE-STEP END -->
+			
+			
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-6">
+				<h3 class="step-slide__title">
+					Как скоро необходимо приступить к ремонту?
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step6-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/6-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step6" id="step6-1" value="В течение недели">
+						<div class="pick-item__label">В течение недели</div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step6-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/6-2.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step6" id="step6-2" value="В течение месяца">
+						<div class="pick-item__label">В течение месяца</div>
+					</label>
+					<!-- ONE-ITEM END -->
+										<!-- ONE-ITEM START -->
+					<label for="step6-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/6-3.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step6" id="step6-3" value="Все зависит от цены">
+						<div class="pick-item__label">Все зависит от цены</div>
+					</label>
+					<!-- ONE-ITEM END -->
+
+					
+					<div id="next6" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-6" name="step6">
+			</div>
+			<!-- ONE-STEP END -->
+			
+			<!-- ONE-STEP START -->
+			<div class="step-slide step-slide-7">
+				<h3 class="step-slide__title">
+					Выберите бонусы от компании "КРС", если мы заключим договор на ремонт:
+				</h3>
+				<div class="step-slide__grid">
+					<!-- ONE-ITEM START -->
+					<label for="step7-1" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/7-1.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step7" id="step7-1" value="Скидка на дизайн-проект">
+						<div class="pick-item__label"><strong>Скидка на дизайн-проект</strong></div>
+					</label>
+					<!-- ONE-ITEM END -->
+					<!-- ONE-ITEM START -->
+					<label for="step7-2" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/7-2.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step7" id="step7-2" value="Натяжной потолок">
+						<div class="pick-item__label"><strong>Натяжной потолок на всю площадь офиса</strong></div>
+					</label>
+					<!-- ONE-ITEM END -->
+										<!-- ONE-ITEM START -->
+					<label for="step7-3" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/7-3.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step7" id="step7-3" value="светильники">
+						<div class="pick-item__label"><strong>Безлимитное количество светильников</strong></div>
+					</label>
+					<!-- ONE-ITEM END -->
+										<!-- ONE-ITEM START -->
+					<label for="step7-4" class="pick-item">
+						<div class="pick-item__img">
+							<img src="img/new/7-4.jpg" alt="item">
+						</div>
+						<input class="pick-item__input" type="radio" name="step7" id="step7-4" value="ничего не нужно">
+						<div class="pick-item__label"><strong>Ничего не нужно</strong></div>
+					</label>
+					<!-- ONE-ITEM END -->
+					
+					<div id="next7" class="btn-next-container"></div>
+				</div>
+				<input type="hidden" class="hidden-input-7" name="step7">
+			</div>
+			<!-- ONE-STEP END -->
+
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide bg-mockup">
+				<h3 class="step-slide__title">
+					Спасибо за ответы! 
+				</h3>
+				<div class="step-slide__grid">
+					<h4 class="step-slide__discount">Мы уже оцениваем стоимость ремонта Вашего офиса</h4>
+					<div class="last-step-form">
+						<label class="last-step-form__label">На какой номер телефона сообщить результат рассчёта?</label>
+						<input class="add-phone-mask last-step-form__input" type="tel" name="phone" placeholder="Введите Ваш номер">
+						<button class="last-step-form__button btn-shine"><span>получить результат расчета</span></button>
+						
+					</div>
+				</div>
+
+			</div>
+			<!-- ONE-STEP END -->
+
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+			</div>
+			<!-- ONE-STEP END -->
+
+			<!-- ONE-STEP START -->
+			<div class="step-slide">
+				<!-- AFTER SUBMIT START -->
+				<div class="after-submit">
+					<div class="container">
+						<h4 class="after-submit__title">Заявка отправлена. Мы приступаем к оценке<br>В течении часа Вы получите результат.</h4>
+						<h5 class="after-submit__descr">Мы пришлем стоимость СМС сообщением на указанный номер телефона, а также наш менеджер перезвонит Вам для уточнения мелких деталей.</h5>
+						
+					    </div>
+				</div>
+				<!-- AFTER SUBMIT END -->
+			</div>
+			<!-- ONE-STEP END -->
+		</div>
+	</div>
+	<!-- STEPS END -->
+
+</form>
+
+<script src="main.js"></script>
+<script src="js/common.js"></script>
+<script src="libs/maskedinput/jquery.maskedinput.js"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KH9Q732"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>
