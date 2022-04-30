@@ -21,7 +21,9 @@
     line-height: 40px;
   }
 }
-
+.rsb2_tx{
+  color: rgb(7, 173, 32) !important;
+}
 span {
   color: rgb(7, 173, 32);
 }
